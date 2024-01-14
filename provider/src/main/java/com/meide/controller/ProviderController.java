@@ -13,6 +13,8 @@ public class ProviderController {
     private String port;
 
 
+    private String name;
+
     @GetMapping("/index")
     public String index(){
         return "当前调用的Provider服务端口为："+this.port;
